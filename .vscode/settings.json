@@ -2,30 +2,29 @@
   "typescript.tsdk": "./node_modules/typescript/lib",
   "search.exclude": {
     ".awcache": true,
-    "**/dist": true,
+    "**/dist": false,
     "**/node_modules": true,
-    "**/out": true,
+    "**/out": false,
     "app/test/fixtures": true,
     "vendor": true
   },
   "files.exclude": {
-    "**/.git": true,
+    "**/.git": false,
     "**/.svn": true,
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/node_modules": true,
-    "**/dist": true,
+    "**/dist": false,
     "**/out": true,
     ".awcache": true,
     ".eslintcache": true
   },
   "files.insertFinalNewline": true,
   "editor.tabSize": 2,
-  "prettier.semi": false,
+  "prettier.semi": true,
   "prettier.singleQuote": true,
-  "prettier.trailingComma": "es5",
+  "prettier.trailingComma": "es1",
   "editor.formatOnSave": true,
-  "prettier.ignorePath": ".prettierignore",
   "eslint.options": {
     "configFile": ".eslintrc.yml",
     "rulePaths": ["eslint-rules"]
